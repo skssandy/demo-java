@@ -2,7 +2,7 @@ version: 0.0
 os: linux 
 files:
   - source: /
-    destination: /var/www/demo-java
+    destination: /var/www/demo
 file_exists_behavior: OVERWRITE
 hooks:      
   ApplicationStart:
