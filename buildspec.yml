@@ -18,6 +18,6 @@ phases:
 artifacts:
   files:
     - appspec.yml
-    - *.war
+    - /build/libs/*.war
     - script/
     - '**/*'
