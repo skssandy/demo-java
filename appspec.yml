@@ -2,7 +2,7 @@ version: 0.0
 os: linux 
 files:
   - source: /
-    destination: /opt/tomcat/apache-tomcat-8.0.53/webapps/api
+    destination: /var/www/demo
 file_exists_behavior: OVERWRITE
 hooks:
   Install:
