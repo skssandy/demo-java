@@ -5,10 +5,6 @@ files:
     destination: /var/www/demo
 file_exists_behavior: OVERWRITE
 hooks:
-  Install:
-    - location: scripts/install.sh
-      timeout: 300
-      runas: ubuntu
   ApplicationStart:
     - location: scripts/application_start.sh
       timeout: 300
