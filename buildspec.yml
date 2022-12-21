@@ -14,7 +14,7 @@ phases:
       - sudo ./gradlew build
   post_build:
     commands:
-      - echo build completed
+      - echo completed
 artifacts:
   files:
     - appspec.yml
